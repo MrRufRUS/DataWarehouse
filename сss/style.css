@@ -134,8 +134,6 @@ border-radius: 50px;
     justify-content: center;
     align-items: center;
 }
-.about__picture {
-}
 .about__text {
     margin-left: 62px;
 }
@@ -169,4 +167,123 @@ color: #4B5D68;
 margin-top: 40px;
 width: 474px;
 height: 170px;
+}
+
+.features {
+    padding-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.features__title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 130%;
+    /* identical to box height, or 52px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #212353;
+}
+.features__subtitle {
+    padding-top: 50px;
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* 1 */
+    
+    color: #4B5D68;
+    width: 585px;
+}
+.features__list {
+    padding-top: 100px;
+    display: flex;
+    width: 1140px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.features__item {
+    width: 50%;
+    display: flex;
+    height: 358px;
+    margin: 25px 0;
+}
+
+.features__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 280px;
+}
+.features__item-title {
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 130%;
+    /* or 31px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #212353;
+    width: 200px;
+    height: 50px;
+}
+.features__item-text {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 160%;
+    /* or 26px */
+    
+    
+    /* 1 */
+    
+    color: #4B5D68;
+    width: 220px;
+    height: 160px;
+    margin: 20px 0;
+}
+.featires__link {
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    /* identical to box height, or 26px */
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.005em;
+    
+    /* 2 */
+    
+    color: #212353;
+}
+.featires__link > span {
+    
+}
+.features__item_1 {
+    background: url(../img/01.png) no-repeat;
+}
+.features__item_2 {
+    background: url(../img/02.png) no-repeat;
+}
+.features__item_3 {
+    background: url(../img/03.png) no-repeat;
+}
+.features__item_4 {
+    background: url(../img/04.png) no-repeat;
 }
