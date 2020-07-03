@@ -451,9 +451,13 @@ p.logo > img {
     margin-top: 10px;
     width: 190px;
 }
+.footer__block {
+    display: flex;
+}
 .footer__list {
     display: flex;
     flex-direction: column;
+    padding-right: 55px;
 }
 .footer__list-title {
     font-family: Avenir;
@@ -553,9 +557,6 @@ p.logo > img {
     }
 }
 @media all and (max-width: 1024px) {
-    .content {
-        padding: 0 !important;
-    }
     nav {
         flex-direction: column;
         justify-content: center;
@@ -563,41 +564,99 @@ p.logo > img {
         padding-left: 0;
     }
     .nav__links {
-        flex-direction: column;
         justify-content: center;
         align-items: center;
         margin: 0 auto;
+        padding-top: 25px;
+        padding-bottom: 25px;
     }
-
+    .nav__links li {
+        padding-right: 30px;
+    }
+    .nav__links li:last-child {
+        padding-right: 0;
+    }
     .nav__links li + li {
         margin-left: 0;
     }
     .hero {
         justify-content: center;
         padding-left: 0;
+        padding-bottom: 150px;
     }
     .hero__title {
         font-size: 40px;
     }
-
+    .features {
+        margin-top: 150px;
+        padding: 0;
+    }
     .about {
         margin: 0;
+        text-align: center;
     }
-    footer{
-
-    }
-    .about__picture img{
-        display: none;
+    .about__text {
+        margin: 0;
     }
     .features__subtitle {
         max-width: 300px;
     }
-    
-    
+    footer::before{
+        display: none;
+    }
+    .footer__button_white {
+        margin-top: 20px;
+    }
+    .footer__midle {
+        align-items: center;
+        display: flex;
+    }
+    .footer__block {
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .footer__list {
+        padding-right: 50px;
+    }
+    .footer__bottom-img {
+        display: none;
+    }
 }
 
 @media all and (max-width: 1440px) {
     .hero__right{
         display: none;
+    }
+    .hero {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-left: 0;
+    }
+    .hero__left {
+        display: flex;
+        align-items: center;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .hero__text {
+        text-align: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .about  {
+        border-radius: 0px;
+    }
+    .about__text {
+        padding-bottom: 64px;
+    }
+    .footer__location {
+        margin-right: 0px;
+    }
+    .footer__top-text {
+        padding-bottom: 50px;
     }
 }
