@@ -273,7 +273,7 @@ height: 170px;
     color: #212353;
 }
 .featires__link > span {
-    
+    padding-left: 20px;
 }
 .features__item_1 {
     background: url(../img/01.png) no-repeat;
