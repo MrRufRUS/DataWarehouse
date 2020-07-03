@@ -1,0 +1,123 @@
+main {
+    background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%) !important;
+}
+
+nav {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    padding-right: 240px;
+}
+.content {
+    padding: 0 240px;
+}
+.nav__links {
+    margin-left: 120px;
+    margin-right: auto;
+    display: flex;
+}
+.nav__links > li {
+    font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+
+/* 1 */
+
+color: #4B5D68;
+
+}
+.nav__links > li + li {
+    margin-left: 40px;
+}
+.nav__button {
+    font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+align-items: center;
+letter-spacing: 0.005em;
+
+/* 2 */
+
+color: #212353;
+    padding: 17px 29px;
+    background: #FFFFFF;
+box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+border-radius: 50px;
+    display: inline;
+}
+.nav__button span {
+    margin-left: 20px;
+}
+.hero {
+    padding-left: 240px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.hero__under {
+    display: flex;
+    margin-top: 130px;
+    align-items: center;
+    justify-content: center;
+}
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* justify-content: center; */
+}
+.hero__title {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 80px;
+line-height: 110%;
+    
+
+/* 2 */
+
+color: #212353;
+}
+.hero__subtitle {
+width: 380px;
+height: 120px;
+
+font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+    margin: 50px 0 ;
+/* or 29px */
+
+
+/* 1 */
+
+color: #4B5D68;
+}
+.hero__button {
+    font-family: Avenir;
+font-style: normal;
+font-weight: 900;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+text-align: center;
+
+color: #FFFFFF;
+    padding: 16px 37px;
+    background: #9C69E2;
+border-radius: 50px;
+}
+.hero__right {
+    padding-right: 112px;
+}
