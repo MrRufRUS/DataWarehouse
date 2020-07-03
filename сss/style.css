@@ -1,5 +1,8 @@
 main {
     background: linear-gradient(180deg, #F6FAFD 0%, #FFFFFF 19.4%) !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 nav {
@@ -9,7 +12,7 @@ nav {
     padding-right: 240px;
 }
 .content {
-    padding: 0 240px;
+    margin: 0 240px;
 }
 .nav__links {
     margin-left: 120px;
@@ -120,4 +123,50 @@ border-radius: 50px;
 }
 .hero__right {
     padding-right: 112px;
+}
+
+.about {
+    display: flex;
+    height: 560px;
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+    width: 1120px;
+    justify-content: center;
+    align-items: center;
+}
+.about__picture {
+}
+.about__text {
+    margin-left: 62px;
+}
+.about__title {
+    font-family: Helvetica;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 130%;
+/* or 52px */
+
+display: flex;
+align-items: center;
+
+color: #212353;
+width: 475px;
+
+}
+.about__subtitle {
+    font-family: Avenir;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+/* 1 */
+
+color: #4B5D68;
+margin-top: 40px;
+width: 474px;
+height: 170px;
 }
